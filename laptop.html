@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laptops</title>
+  </head>
+  <link rel="stylesheet" href="laptop.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous"
+  />
+  
+
+  <body>
+     <!--Navbar-->
+     <div class="Navigationbar">
+      <nav class="navbar navbar-expand-lg">
+        <h1 style="font-size: large;"></h1><a class="navbar-brand" href="index.html" style="color: rgb(245, 239, 239)">E-RENTAL</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="laptop.html">Laptops</a>
+              <a class="dropdown-item" href="watches.html">Digital Watches</a>
+              <a class="dropdown-item" href="#laptops">Home Appliances</a>
+              <a class="dropdown-item" href="gaming.html">Gaming</a>
+            </div>
+          </div>
+            <a class="nav-link" href="#about"">About</a>
+            <a class="nav-link" href="#footer">Contact</a> 
+            <a class="nav-link" href="cart.html">Cart
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br>
+    <!--Products-->
+    <div id="laptops">
+    <h1>LAPTOPS</h1>
+    <div class="line"></div><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card" style="width: 20rem; ">
+            <img class="card-img-top" src="images/l1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Apple 2022 MacBook Air Laptop</h5>
+              <p class="card-text">  M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera.  Space Grey</p>
+              <p id="price">Rs.1500/day</p>
+              <!-- <p id="cart" class="add-to-cart">Add to cart</p> -->
+              <button class="add-to-cart btn btn-primary" data-product="Apple 2022 MacBook Air Laptop Price-Rs.1500/day">Add to Cart</button>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm-4">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="images/omen.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">HP OMEN Gaming Laptop</h5>
+              <p class="card-text"> 13th Gen Intel® Core™ i5-13420H 40.9 cm (16.1inch) FHD,Micro-Edge, Anti-Glare(16GB, 512 GB SSD)/NVIDIA® GeForce RTX™ 4050/MSO/B&O,Win 11, 16-wd0770TX</p>
+              <p id="price">Rs.1500/day</p>
+              <!-- <p id="cart" class="add-to-cart">Add to cart</p> -->
+              <button class="add-to-cart btn btn-primary" data-product="HP OMEN Gaming Laptop Price-Rs.1500/day">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 20rem;"><br><br>
+            <img class="card-img-top" src="images/lenovo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo Yoga Slim 6 </h5>
+              <p class="card-text"> 12th Gen Intel Evo Core i5 1240P 14"(35.5cm) 2.2K 300Nit Laptop (16GB/512GB SSD/60Hz Refresh/Win 11/Office 21/Backlit KB/1Yr Warranty/Alexa/3 Month Game Pass/Grey/1.3Kg), 82WU0095IN</p>
+              <p id="price">Rs.1500/day</p>
+              <!-- <p id="cart" class="add-to-cart">Add to cart</p> -->
+              <button class="add-to-cart btn btn-primary" data-product="Lenovo Yoga Slim 6  Price-Rs.1500/day">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card" style="width: 20rem;"><br><br>
+            <img class="card-img-top" src="images/rog.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ROG Strix G16 (2023) </h5>
+              <p class="card-text"> 64WHrs Battery, Intel Core i5-13450HX 13th Gen, 16" FHD+ 165Hz, 6GB RTX 3050, Gaming Laptop (16GB/1TB SSD/Windows 11/Office 2021/4-Zone RGB KB/Gray/2.50 Kg) </p>
+              <p id="price">Rs.1500/day</p>
+              <!-- <p id="cart" class="add-to-cart">Add to cart</p> -->
+              <button class="add-to-cart btn btn-primary" data-product="ASUS ROG Strix G16 (2023) Price-Rs.1500/day">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 20rem;"><br><br>
+            <img class="card-img-top" src="images/microsoft.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Microsoft Surface Laptop Studio </h5>
+              <p class="card-text"> Microsoft Surface Laptop Studio - 14.4 Inches Touchscreen - Intel ® Core I5-16Gb Memory - 256Gb Ssd - Platinum Windows 11 (Thr-00022) </p>
+              <p id="price">Rs.1500/day</p>
+              <!-- <p id="cart" class="add-to-cart">Add to cart</p> -->
+              <button class="add-to-cart btn btn-primary" data-product="Microsoft Surface Laptop Studio Price-Rs.1500/day">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 20rem;"><br><br>
+            <img class="card-img-top" src="images/macair.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Apple MacBook Air Laptop </h5>
+              <p class="card-text">  M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Silver </p>
+              <p id="price">Rs.1500/day</p>
+              <!-- <p id="cart" class="add-to-cart">Add to cart</p> -->
+              <button class="add-to-cart btn btn-primary" data-product="Apple  MacBook Air Laptop Price-Rs.1500/day">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div><br>
+    <div class="footer" id="footer">
+      <footer>
+       <center>
+        <p>&copy;2024</p>
+        <p>Contact-1234567890</p>
+        <p>Email-Erental@gmail.com</p>
+       </center>
+      </footer>
+    </div>
+    <script>
+      
+      let cartItems = [];
+    
+      
+      const addToCartButtons = document.querySelectorAll('.add-to-cart');
+    
+      
+      addToCartButtons.forEach(button => {
+        button.addEventListener('click', () => {
+         
+          const productName = button.getAttribute('data-product');
+          
+          
+          cartItems.push(productName);
+    
+          
+          localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    
+          
+          alert(`Added to cart: ${productName}`);
+        });
+      });
+    </script>
+   
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
